@@ -301,7 +301,7 @@ class FileDownloader(object):
                 else:
                     msg_template = '%(_downloaded_bytes_str)s at %(_speed_str)s'
             else:
-                msg_template = '%(_percent_str)s % at %(_speed_str)s ETA %(_eta_str)s'
+                msg_template = '%(_percent_str)s at %(_speed_str)s ETA %(_eta_str)s'
 
         self._report_progress_status(msg_template % s)
 
